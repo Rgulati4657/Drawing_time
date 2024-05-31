@@ -146,7 +146,7 @@ saveImg.addEventListener("click",()=>{
   link.click(); // clicking link to download image
 });
 
-Disable right-click on the webpage
+// Disable right-click on the webpage
 document.addEventListener('contextmenu', function(event) {
   event.preventDefault();
   alert("! sorry you don't have permissions.. to open files...");
